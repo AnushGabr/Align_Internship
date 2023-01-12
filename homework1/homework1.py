@@ -31,6 +31,7 @@ word = 'education'
 print(word.upper())
 print(word.lower())
 print(word[0].upper() + word[1:])
+# or word.title()
 
 # task-5
 
@@ -88,13 +89,15 @@ if high_income and high_credit:
 else:
     print(False)
 
+# prosto print(high_income and high_credit)
+
 # task-13
 
 classmates_names = ['Ani', 'Mari', 'Tigran', 'Tatev', 'Aram']
 classmates_names.append('Lilit')
 index = len(classmates_names) - 1
 print('Welcome ' + classmates_names[index])
-
+#print('Welcome ' + classmates_names[-1])
 # task-14
 
 places = ["Italy", "France", "USA", "Germany", "Sweden"]
